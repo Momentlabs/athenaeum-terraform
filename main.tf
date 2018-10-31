@@ -18,6 +18,7 @@ variable "cluster_initial_node_count" {
     description = "Number of initial nodes in the node pool"
 }
 
+## These don't usually need to be changed accept for a new user.
 variable "admin_user" {
     description = "google cloud user name to use for creating the cluster."
     default = "david@momentlabs.io"
